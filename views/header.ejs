@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jannessa Markovich | Programmer, Web Dev. and Artist</title>
+  <link rel="shortcut icon" type="image" href="favicon-16x16.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="page-header">
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="/" class="active">
+        <th>Jannessa Markovich</th>
+      </a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="/about">About</a>
+        <a href="/projects">Portfolio</a>
+        <a href="https://bungeeowl.com">BungeeOwl</a>
+        <a href="https://boardandbanter.com">Board&Banter</a>
+        <a href="https://www.linkedin.com/in/jannessa-markovich-330229122/"><img alt="LinkedInicon" width = 35px height = 35px src="LinkedIn.png"></a>
+        <a href="https://github.com/jmarkovich2"><img alt="Githubicon" width = 35px height = 35px src="github-logo.png"></a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
+    <div class="contactinfotop">
+      <table>
+        <th>Contact Info</th>
+      </table>
+      <table>
+        <td><b>Phone #:</b> <a href="tel:+7544001070">(754)400-1070</a></td>
+      </table>
+      <table>
+        <td><b>Email:</b> jannessa.markovich@gmail.com</td>
+      </table>
+    </div>
+
+
+  </header>
